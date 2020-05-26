@@ -15,7 +15,6 @@ else {
         database: "burgers_db"
     });
 }
-
 // Make connection.
 connection.connect(function(err) {
     if (err) {
